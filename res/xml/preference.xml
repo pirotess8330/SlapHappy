@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 	<ListPreference
+        android:key="bk_color"
+        android:title="@string/bk_color"
+        android:dialogTitle="@string/bk_color_select"
+        android:entries="@array/bk_color_names"
+        android:entryValues="@array/bk_color_values"
+        android:defaultValue="-1" />
+ 	<ListPreference
+        android:key="veffect"
+        android:title="@string/veffect"
+        android:dialogTitle="@string/veffect_select"
+        android:entries="@array/veffect_names"
+        android:entryValues="@array/veffect_values"
+        android:defaultValue="0" />
+ 	<ListPreference
+        android:key="sound"
+        android:title="@string/sound"
+        android:dialogTitle="@string/sound_select"
+        android:entries="@array/sound_names"
+        android:entryValues="@array/sound_values"
+        android:defaultValue="-1" />
+ 	<ListPreference
+        android:key="theme"
+        android:title="@string/theme"
+        android:dialogTitle="@string/theme_select"
+        android:entries="@array/theme_names"
+        android:entryValues="@array/theme_values"
+        android:defaultValue="-1" />
+</PreferenceScreen>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bk_color_names">
+		<item name="white">White</item>
+		<item name="black">Black</item>
+		<item name="blue">Blue</item>
+		<item name='cyan'>Cyan</item>
+		<item name='green'>Green</item>
+		<item name='yellow'>Yellow</item>
+		<item name="red">Red</item>
+		<item name='magenta'>Magenta</item>
+	</string-array>
+	
+    <string-array name="bk_color_values">
+    	<item name="white">-1</item>
+    	<item name="black">-16777216</item>
+    	<item name="blue">-16776961</item>
+    	<item name='cyan'>-16711681</item>
+    	<item name='green'>-16711936</item>
+    	<item name='yellow'>-256</item>
+    	<item name="red">-65536</item>
+    	<item name='magenta'>-65281</item>
+    </string-array>
+    
+    <string-array name="veffect_names">
+		<item name="circle">Colored circles</item>
+		<item name="color">Color burst</item>
+		<item name="ball">Bouncing ball</item>
+		<item name="ripple">Water ripples</item>
+	</string-array>
+	
+    <string-array name="veffect_values">
+    	<item name="circle">0</item>
+		<item name="color">1</item>
+		<item name="ball">2</item>
+		<item name="ripple">3</item>
+    </string-array>
+    
+    <string-array name="sound_names">
+		<item name="silent">Silent Mode</item>
+		<item name="bounce">Cartoon sounds</item>
+		<item name="piano">Piano sounds</item>
+		<item name="water">Water sounds</item>
+		<item name="harp">Harp Sounds</item>
+		<item name="scifi">SciFi Sounds</item>
+	</string-array>
+	
+    <string-array name="sound_values">
+    	<item name="silent">-1</item>
+		<item name="bounce">0</item>
+		<item name="piano">1</item>
+		<item name="water">2</item>
+		<item name="harp">3</item>
+		<item name="scifi">4</item>
+    </string-array>
+    
+    <string-array name="theme_names">
+		<item name="none">None</item>
+		<item name="wb">Learning</item>
+		<item name="cat">Whack-A-Cat</item>
+	</string-array>
+	
+    <string-array name="theme_values">
+    	<item name="none">-1</item>
+		<item name="wb">0</item>
+		<item name="cat">1</item>
+    </string-array>
+</resources>
