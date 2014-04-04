@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="slaphappy.v1"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="2.0" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -16,10 +16,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen" >
+        android:theme="@android:style/Theme.DeviceDefault" >
         <activity
             android:name="slaphappy.v1.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name2" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +28,7 @@
         </activity>
         <activity
             android:name="slaphappy.v1.PlayActivity"
-            android:label="@string/app_name"
+            android:label="@string/app_name2"
             android:theme="@android:style/Theme.Light">
         </activity>
         <activity

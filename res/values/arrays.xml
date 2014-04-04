@@ -26,14 +26,12 @@
 		<item name="circle">Colored circles</item>
 		<item name="color">Color burst</item>
 		<item name="ball">Bouncing ball</item>
-		<item name="ripple">Water ripples</item>
 	</string-array>
 	
     <string-array name="veffect_values">
     	<item name="circle">0</item>
 		<item name="color">1</item>
 		<item name="ball">2</item>
-		<item name="ripple">3</item>
     </string-array>
     
     <string-array name="sound_names">
